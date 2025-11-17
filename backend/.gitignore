@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Optional caches
+.cache/
+temp/
+.tmp/
+
+# Coverage testing
+coverage/
+
+# TypeScript build
+*.tsbuildinfo
+
+# Local server files
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.local
+*.env.*
